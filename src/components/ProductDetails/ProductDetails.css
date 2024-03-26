@@ -1,0 +1,375 @@
+.productDetails {
+  padding: 4rem 0;
+  background-color: rgb(250, 250, 250);
+  overflow-x: hidden;
+}
+
+.productDetails .home_productName {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  column-gap: 0.2rem;
+  width: 85%;
+  margin: 0 auto 3rem;
+  background-color: rgb(225, 97, 32);
+  color: white;
+  padding: 0.8rem 1.25rem;
+}
+
+.productDetails .home_productName svg {
+  color: white;
+}
+
+.productDetails .home_productName p {
+  font-weight: 500;
+}
+
+.productDetails .mealDetails {
+  width: 85%;
+  margin: 0 auto 3rem;
+}
+
+.productDetails .mealDetails h2 {
+  padding: 0.25rem 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.29rem;
+}
+
+.productDetails .mealDetails hr {
+  width: 85px;
+  height: 5px;
+  border: none;
+  background-color: rgb(225, 97, 32);
+}
+
+.productDetails .details {
+  width: 85%;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+}
+
+.productDetails .details .image-Ingredients {
+  display: flex;
+  justify-content: left;
+  column-gap: 4rem;
+}
+
+.productDetails .details .image-Ingredients img {
+  width: 48%;
+  min-height: 420px;
+}
+
+.productDetails .details .image-Ingredients .name_Ingredients {
+  width: 50%;
+  margin-top: 1rem;
+  padding: 0 1.25rem;
+}
+
+.productDetails .details .image-Ingredients .name_Ingredients .name {
+  padding: 0.75rem 0 0;
+}
+
+.productDetails .details .image-Ingredients .name_Ingredients .name h2 {
+  font-size: 1.5rem;
+  padding-bottom: 0.75rem;
+  color: rgb(225, 97, 32);
+}
+
+.productDetails .details .image-Ingredients .name_Ingredients .name hr {
+  background-color: rgb(225, 97, 32);
+  height: 2px;
+  border: none;
+}
+
+.productDetails .details .image-Ingredients .name_Ingredients .category_source {
+  padding: 1.5rem 0;
+}
+
+.productDetails
+  .details
+  .image-Ingredients
+  .name_Ingredients
+  .category_source
+  .categoryName
+  .categoryn {
+  margin: 0.25rem 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.productDetails
+  .details
+  .image-Ingredients
+  .name_Ingredients
+  .category_source
+  .categoryName
+  .name {
+  letter-spacing: 0.2rem;
+  font-size: 1.15rem;
+  text-align: center;
+}
+
+.productDetails
+  .details
+  .image-Ingredients
+  .name_Ingredients
+  .category_source
+  .source {
+  margin-top: 0.5rem;
+}
+
+.productDetails
+  .details
+  .image-Ingredients
+  .name_Ingredients
+  .category_source
+  .source
+  span {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.productDetails
+  .details
+  .image-Ingredients
+  .name_Ingredients
+  .category_source
+  .source
+  a {
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: all 0.2s linear;
+  text-decoration: none;
+  color: black;
+}
+
+.productDetails
+  .details
+  .image-Ingredients
+  .name_Ingredients
+  .category_source
+  .source
+  a:hover {
+  color: rgb(225, 97, 32);
+}
+
+.productDetails .details .image-Ingredients .name_Ingredients .tags {
+  display: flex;
+  align-items: center;
+  column-gap: 0.75rem;
+}
+
+.productDetails .details .image-Ingredients .name_Ingredients .tags span {
+  font-weight: 700;
+}
+
+.productDetails .details .image-Ingredients .name_Ingredients .tags ul {
+  display: flex;
+}
+
+.productDetails .details .image-Ingredients .name_Ingredients .tags ul li {
+  list-style: none;
+  border: 1px solid rgb(225, 97, 32);
+  color: rgb(225, 97, 32);
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+  margin-right: 0.4rem;
+  border-radius: 2px;
+}
+
+.productDetails .details .image-Ingredients .name_Ingredients .ingredients {
+  margin: 3rem 0;
+  padding: 1rem;
+  background-color: rgb(225, 97, 32);
+  color: white;
+}
+.productDetails .details .image-Ingredients .name_Ingredients .ingredients h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.productDetails .details .image-Ingredients .name_Ingredients .ingredients ul {
+  display: flex;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+
+.productDetails
+  .details
+  .image-Ingredients
+  .name_Ingredients
+  .ingredients
+  ul
+  li {
+  list-style: none;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.productDetails
+  .details
+  .image-Ingredients
+  .name_Ingredients
+  .ingredients
+  ul
+  li
+  span {
+  border-radius: 50%;
+  background-color: RGB(58, 150, 145);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.05rem 0.4rem;
+  border: 1px solid white;
+  margin-right: 0.5rem;
+}
+
+.productDetails .measures {
+  margin: 3.75rem 0 1.5rem;
+}
+
+.productDetails .measures h2 {
+  font-size: 1rem;
+  margin-bottom: 1.1rem;
+}
+
+.productDetails .measures .items ul {
+  border: 1px solid rgba(128, 128, 128, 0.34);
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  padding: 1.25rem;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+.productDetails .measures .items ul li {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  align-items: end;
+  column-gap: 0.4rem;
+
+  font-size: 14px;
+}
+
+.productDetails .measures .items ul li svg {
+  color: rgb(225, 97, 32);
+}
+
+.productDetails .measures .items ul li .item {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -1rem;
+}
+
+.productDetails .instructions {
+  margin: 1.5rem 0;
+}
+
+.productDetails .instructions h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1.1rem;
+}
+
+.productDetails .instructions ul li {
+  display: flex;
+  align-items: left;
+  column-gap: 0.5rem;
+}
+
+.productDetails .instructions ul li svg {
+  color: rgb(225, 97, 32);
+  font-size: 1rem;
+}
+
+.productDetails .instructions ul li .text {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 990px) {
+  .productDetails .details .image-Ingredients {
+    flex-direction: column;
+  }
+  .productDetails .details .image-Ingredients img {
+    width: 100%;
+  }
+
+  .productDetails .details .image-Ingredients .name_Ingredients {
+    width: 100%;
+  }
+  .productDetails
+    .details
+    .image-Ingredients
+    .name_Ingredients
+    .ingredients
+    ul {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .productDetails
+    .details
+    .image-Ingredients
+    .name_Ingredients
+    .ingredients
+    ul
+    li {
+    width: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .productDetails .details {
+    padding: 3rem 1rem;
+  }
+  .productDetails .details .image-Ingredients .name_Ingredients {
+    padding: 0;
+  }
+  .productDetails
+    .details
+    .image-Ingredients
+    .name_Ingredients
+    .category_source
+    .categoryName
+    .categoryn {
+    font-size: 1rem;
+  }
+  .productDetails
+    .details
+    .image-Ingredients
+    .name_Ingredients
+    .category_source
+    .categoryName
+    .name {
+    font-size: 1rem;
+  }
+
+  .productDetails
+    .details
+    .image-Ingredients
+    .name_Ingredients
+    .category_source
+    .source
+    span {
+    font-size: 1rem;
+  }
+
+  .productDetails
+    .details
+    .image-Ingredients
+    .name_Ingredients
+    .category_source
+    .source
+    a {
+    font-size: 0.8rem;
+  }
+}

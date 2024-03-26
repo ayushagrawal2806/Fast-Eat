@@ -1,0 +1,85 @@
+.searchmeals{
+    padding: 3rem 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchmeals .meal{
+    width: 85%;
+    margin: 2rem auto 3rem;
+    padding: 0.25rem;
+    line-height: 2.4rem;
+}
+
+.searchmeals .meal h2{
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+}
+
+.searchmeals .meal hr{
+    height: 0.25rem;
+    width: 80px;
+    border: none;
+    background-color: rgb(225, 97, 32);
+
+}
+
+.searchmeals .products{
+    width: 90%;
+    margin: 0 auto 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.searchmeals .products .product-cont{
+    width: 230px;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0px 8px 0 rgba(99,99,99,.09);
+    position: relative;
+   
+}
+
+.searchmeals .products #Navlink{
+    text-decoration: none;
+    color: black;
+}
+
+.searchmeals .products .product-cont img{
+    width: 100%;
+    height: calc(100%-30%);
+}
+
+
+
+.searchmeals .products .product-cont .area{
+    color: rgba(0, 0, 0, 0.537);
+    padding: 0 0.5rem;
+    letter-spacing: 1px;
+   
+}
+
+.searchmeals .products .product-cont .name{
+    padding: 0 0.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    
+}
+
+.searchmeals .products .product-cont .categoryname{
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px 0 rgba(99,99,99,.2);
+    font-size: 13px;
+    padding: 0 18px 2px;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    color: #e16120;
+    font-weight: 600;
+}

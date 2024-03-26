@@ -1,0 +1,112 @@
+.navbar{
+    background-color: rgb(225, 97, 32);
+    padding: 0.5rem 6rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
+.navbar .logo #navlink{
+    display: flex;
+    align-items: center;
+    column-gap: 0.28rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .logo #navlink svg,  h1{
+    font-size: 1.7rem;
+    line-height: 35.2px;
+}
+
+
+
+.navbar .hamburger button{
+    background-color: transparent;
+    margin-top: 0.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .hamburger button .bars{
+    font-size: 1.7rem;
+    color: white;
+}
+
+
+.navbar .sidebar{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    width: 280px;
+    overflow: hidden;
+    transition: all 0.4s linear;
+    padding: 1.5rem 1.4rem;
+}
+
+.navbar .sidebar .closebtn{
+   text-align: end;
+}
+
+.navbar .sidebar .closebtn svg{
+    color: rgb(225, 97, 32);
+    cursor: pointer;
+    font-size: 1.125rem;
+    transition: all 0.1s linear;
+}
+
+.navbar .sidebar .closebtn svg:hover{
+    color: black;
+}
+
+.sidebar-width-open{
+    transform: translate(0);
+    
+}
+
+.sidebar-width-close{
+    transform: translate(500px);
+    
+}
+
+.navbar .sidebar ul{
+    margin-top: 0.5rem;
+}
+
+.navbar .sidebar ul li{
+    list-style: none;
+    font-weight: 350;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgb(220, 219, 219);
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.navbar .sidebar ul #NavLink{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .sidebar ul #NavLink:hover{
+    color:  rgb(225, 97, 32);
+}
+
+@media (max-width : 768px) {
+    .navbar{
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width : 600px) {
+    .navbar .sidebar{
+        width: 100%;
+    }
+}
